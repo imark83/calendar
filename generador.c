@@ -8,7 +8,7 @@
 #define SABADO 7
 #define DOMINGO 8
 
-#define STARTS_ON    MIERCOLES
+#define STARTS_ON    JUEVES
 
 int main () {
 
