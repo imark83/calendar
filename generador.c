@@ -4,18 +4,18 @@
 #define MARTES 1
 #define MIERCOLES 2
 #define JUEVES 3
-#define VIERNES 6
-#define SABADO 7
-#define DOMINGO 8
+#define VIERNES 4
+#define SABADO 5
+#define DOMINGO 6
 
-#define STARTS_ON    JUEVES
+#define STARTS_ON    VIERNES
 
 int main () {
 
 	int k;        // contador para el mes
 	int j;         // contador para el dia del mes
 	int i;        // contador para el dia de la semana
-	int nDays[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+	int nDays[12] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 	char *monthName[12] = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
 
 	i=STARTS_ON;    // inicializamos en el día que empieza el mes.
